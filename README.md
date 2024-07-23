@@ -4,6 +4,8 @@ This tutorial will guide you through the process of running ROS in a Docker cont
 
 With this method, you can develop on any ROS platforms without any installation. You can also share your workspace with others without worrying about compatibility issues.
 
+For a more detailed guide, you can refer to the official documentation [here](https://code.visualstudio.com/docs/devcontainers/containers).
+
 ***Table of Contents***
 - [Docker tutorial for running ROS](#docker-tutorial-for-running-ros)
     - [Step 1: Install Docker](#step-1-install-docker)

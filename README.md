@@ -35,11 +35,11 @@ Open Extensions in VSCode from the left sidebar and search for `Remote Developme
 
 `Ctrl + Shift + P` -> `Dev Containers: Add Development Container Configuration Files...` -> `Add configuration to workspace` -> Search `ROS` (select `Show All Definitions` if ROS does not appear yet) -> `ROS (ijnek)` -> `noetic` -> `desktop` -> Press OK or enter all the way through.
 
-![](./add_dev_container.gif)   
+![](docs/add_dev_container.gif)   
 
 This will create a `.devcontainer` folder in your workspace with the necessary configuration files. You can now build the container by pressing `Ctrl + Shift + P` and selecting `Dev Containers: Rebuild and Reopen in Container`.
 
-![](./rebuild_container.gif)
+![](docs/rebuild_container.gif)
 
 > Tip: you can select option "Rebuild and Reopen in container" straight away, instead of manually adding and reopen step by step, if you do not intend to modify the configuration files.
 
@@ -53,7 +53,7 @@ Make sure that your folder has a `src` folder with your ROS packages. You can al
 catkin_make
 ```
 
-![](./catkin_make.gif)
+![](docs/catkin_make.gif)
 
 Voila! You are now running ROS in a Docker container. You can now run your ROS nodes as you would normally.
 
@@ -63,11 +63,11 @@ Voila! You are now running ROS in a Docker container. You can now run your ROS n
 
 When you open a new VS Code window, you will see a list of recent tabs. Assuming your workspace name is `catkin_ws`, you can click on the `catkin_ws [Dev Container]` tab to resume your container.
 
-![](./open_container.gif)
+![](docs/open_container.gif)
 
 If you happen to open the workspace without the container, you can always click on the blue icon at the bottom left corner of the window and select `Reopen in Container`.
 
-![](./reopen_container.gif)
+![](docs/reopen_container.gif)
 
 ### Install packages
 
@@ -113,7 +113,7 @@ You can forward ports from your container to your host machine by [editing the j
 
 However, you are recommended to forward the ports when you are already in the container. Right click on the left sidebar and select `Port`. From there you can add as many ports as your applications need.
 
-![](./port_forwarding.gif)
+![](docs/port_forwarding.gif)
 
 ### Automate bashrc
 
@@ -141,7 +141,7 @@ roscore
 rviz
 ```
 
-![](./rviz.gif)
+![](docs/rviz.gif)
 
 ### Linux
 

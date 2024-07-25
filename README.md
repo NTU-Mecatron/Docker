@@ -47,6 +47,10 @@ This will create a `.devcontainer` folder in your workspace with the necessary c
 
 >> Warning! If you are on MacOS with arm-based chip, you must install Rosetta 2 before building the container. You can do this by running `softwareupdate --install-rosetta` in the terminal.
 
+> Note: If you are using Mac, you will need to comment out the mount line to avoid mount error when building the dev container.
+
+![](docs/mac_mount_solution.jpg)
+
 ### Step 4: Create the workspace
 
 Make sure that your folder has a `src` folder with your ROS packages. You can also install your ros packages later.
